@@ -9,8 +9,7 @@ public class MySingleLinkedList<T> {
     private int size;
     private Node<T> head;
 
-    public MySingleLinkedList() {
-    }
+    public MySingleLinkedList() {}
 
     public MySingleLinkedList(Collection<? extends T> c) {
         this();
